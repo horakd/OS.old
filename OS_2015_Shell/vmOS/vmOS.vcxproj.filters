@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="shell">
+      <UniqueIdentifier>{69ac9bf9-b440-44cf-9fbf-eda515e8be09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{1992ba4e-6cc0-4490-b0cd-813d2ded4a56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shell\shell programs">
+      <UniqueIdentifier>{16b61211-7749-4cb8-ab89-726122c76520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{340e9f95-1552-4a57-9323-fb65826be1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\IO devices">
+      <UniqueIdentifier>{ab293b29-8dd5-4028-836d-30bad844316a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\IO devices\console">
+      <UniqueIdentifier>{f2e8268a-fe85-4365-b552-9e99cdc46529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\IO devices\pipe">
+      <UniqueIdentifier>{b51870b4-e821-4643-9697-6c42957387d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\IO devices\file system">
+      <UniqueIdentifier>{9762ed4d-a170-4141-80d3-f3600459a34f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\API">
+      <UniqueIdentifier>{83297527-5af7-4e30-993c-b95c3963b9ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\kernel">
+      <UniqueIdentifier>{cff2c0ea-a86e-4533-b395-a7ebb52ad364}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shell.cpp">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClCompile Include="console_io.cpp">
+      <Filter>System\IO devices\console</Filter>
+    </ClCompile>
+    <ClCompile Include="pipe_io.cpp">
+      <Filter>System\IO devices\pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="file_system_io.cpp">
+      <Filter>System\IO devices\file system</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel_types.cpp">
+      <Filter>System\API</Filter>
+    </ClCompile>
+    <ClCompile Include="clib.cpp">
+      <Filter>System\API</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel.cpp">
+      <Filter>System\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="file.cpp">
+      <Filter>System\IO devices\file system</Filter>
+    </ClCompile>
+    <ClCompile Include="echo.cpp">
+      <Filter>shell\shell programs</Filter>
+    </ClCompile>
+    <ClCompile Include="type.cpp">
+      <Filter>shell\shell programs</Filter>
+    </ClCompile>
+    <ClCompile Include="internal.cpp">
+      <Filter>shell\shell programs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shell.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClInclude Include="console_io.h">
+      <Filter>System\IO devices\console</Filter>
+    </ClInclude>
+    <ClInclude Include="pipe_io.h">
+      <Filter>System\IO devices\pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="file_system_io.h">
+      <Filter>System\IO devices\file system</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel_types.h">
+      <Filter>System\API</Filter>
+    </ClInclude>
+    <ClInclude Include="clib.h">
+      <Filter>System\API</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel.h">
+      <Filter>System\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="file.h">
+      <Filter>System\IO devices\file system</Filter>
+    </ClInclude>
+    <ClInclude Include="shell_types.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClInclude Include="echo.h">
+      <Filter>shell\shell programs</Filter>
+    </ClInclude>
+    <ClInclude Include="type.h">
+      <Filter>shell\shell programs</Filter>
+    </ClInclude>
+    <ClInclude Include="internal.h">
+      <Filter>shell\shell programs</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
